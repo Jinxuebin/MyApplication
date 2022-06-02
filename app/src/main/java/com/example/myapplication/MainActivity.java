@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void initEvent() {
         System.out.println("dev branch");
+        System.out.println("dev branch");
+        System.out.println("dev branch");
     }
 
     private void initView() {
