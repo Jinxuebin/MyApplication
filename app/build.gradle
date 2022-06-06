@@ -36,4 +36,8 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+    // Androidx 需要加上这个来寻找本地广播服务：https://www.cnblogs.com/jqnl/p/12660824.html
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
